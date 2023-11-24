@@ -1,25 +1,27 @@
-<!DOCTYPE html>
+	<!DOCTYPE html>
 <html lang="en">
 	<head>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>Portfolio</title>
 		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="stylesheet" href="css/media.css">
 	</head>
 	<body>
 		<div class="wrapper">
 			<header class="header">
-				<img src="img/logo.png" alt="" class="header__logo">
 				<ul class="header__list">
+					<img src="img/logo.png" alt="" class="header__logo">
 					<li class="header__item"><a href="" class="header__hyperlink">Про мене</a></li>
 					<li class="header__item"><a href="#my-works" class="header__hyperlink">Мої роботи</a></li>
 					<li class="header__item"><a href="#feedback" class="header__hyperlink">Відгуки</a></li>
 					<li class="header__item"><a href="#time" class="header__hyperlink">Вартість</a></li>
 					<li class="header__item"><a href="#contact" class="header__hyperlink">Контакти</a></li>
+					<button class="header__button">Замовити сайт</button>
+					<div class="burger__menu"><img class="burger__img" src="img/cross.png" alt=""></div>
 				</ul>
-				<button class="header__button">Замовити сайт</button>
 				<div class="header__container">
-					<img src="img/dev-photo.png" alt="" class="header__dev-photo">
+					<img src="img/My_foto.HEIC" alt="" class="header__dev-photo">
 					<div class="header__block">
 			            <p class="header__dev-attribute header__dev-attribute_uppercase">Народжений в україні</p>
 			            <h1 class="header__headline">Юний Front-End<br> Developer</h1>
@@ -144,14 +146,18 @@
         	<section class="lessons">
         		<h3 class="lessons__subtitle">Як проходять наші уроки в ШКМ</h3>
         		<div class="lessons__photos">
-        			<img src="img/photo_1.jpg" alt="" class="lessons__photo">
-        			<img src="img/photo_2.jpg" alt="" class="lessons__photo">
-        			<img src="img/photo_3.png" alt="" class="lessons__photo">
-        			<img src="img/photo_4.png" alt="" class="lessons__photo">
-        			<img src="img/photo_5.png" alt="" class="lessons__photo">
-        			<img src="img/photo_6.jpg" alt="" class="lessons__photo">
-        			<img src="img/photo_7.png" alt="" class="lessons__photo">
-        			<img src="img/photo_8.png" alt="" class="lessons__photo">
+					<div class="foto__container">
+						<img src="img/photo_1.jpg" alt="" class="lessons__photo">
+						<img src="img/photo_2.jpg" alt="" class="lessons__photo">
+						<img src="img/photo_3.png" alt="" class="lessons__photo">
+						<img src="img/photo_4.png" alt="" class="lessons__photo">
+					</div>
+					<div class="foto__container">
+						<img src="img/photo_5.png" alt="" class="lessons__photo">
+						<img src="img/photo_6.jpg" alt="" class="lessons__photo">
+						<img src="img/photo_7.png" alt="" class="lessons__photo">
+						<img src="img/photo_8.png" alt="" class="lessons__photo">
+					</div>
         		</div>
         	</section>
         	<section class="offer">
